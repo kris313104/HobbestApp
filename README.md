@@ -1,64 +1,57 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Aplikacja randkowa Hobbest
+Aplikacja w której użytkownik może znaleźć inne osoby o
+podobnych do niego zainteresowaniach poprzez system polubień. Aplikacja stawia na
+zainteresowania i hobby innych użytkowników. W przeciwieństwie do innych aplikacji
+randkowych Hobbest nie pozwala użytkownikom na pokazanie swojej twarzy innym. Pozwala
+to zapobiec ocenianiu użytkowników poprzez patrzenie na wygląd i pominięcie jego
+zainteresowań i cech charakteru. Gdy dwoje użytkowników wyrazi swoje wzajemne
+zainteresowanie odblokowuje się możliwość ich komunikacji poprzez wbudowany w aplikację
+system czatu.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Opis wykorzystanych narzędzi:
+• 2.0.1. PHP - interpretowany, skryptowy język programowania zaprojektowany do
+generowania stron internetowych i budowania aplikacji webowych w czasie
+rzeczywistym.
+- https://www.php.net/
+Licencja: PHP License
 
-## About Laravel
+• 2.0.2. Composer - Composer to system zarządzania pakietami dla języka PHP,
+dostępny jako aplikacja wiersza poleceń, która dostarcza i standaryzuje format
+zarządzania zależnościami skryptami i bibliotekami.
+- https://getcomposer.org/
+Licencja: MIT
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+• 2.0.3. Laravel – framework do aplikacji internetowych napisany w języku PHP bazujący
+na wzorcu architektonicznym Model-View-Controller.
+- https://laravel.com/
+Licencja: MIT
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+• 2.0.4. jQuery – lekka biblioteka programistyczna dla języka JavaScript, ułatwiająca
+korzystanie z JavaScriptu.
+- https://jquery.com/
+Licencja: MIT
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+• 2.0.5. React.js – biblioteka języka programowania JavaScript, która wykorzystywana
+jest do tworzenia interfejsów graficznych aplikacji internetowych.
+- https://pl.reactjs.org/
+Licencja: MIT
 
-## Learning Laravel
+• 2.0.6. Symfony – framework dla aplikacji internetowych napisany w języku PHP
+bazujący na wzorcu projektowym MVC.
+- https://symfony.com/
+Licencja: MIT
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+• 2.0.7. Bootstrap – biblioteka CSS, rozwijana przez programistów Twittera, wydawany
+na licencji MIT
+- https://getbootstrap.com/
+Licencja: MIT
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+• 2.0.8. Visual Studio Code – darmowy edytor kodu źródłowego z kolorowaniem składni
+dla wielu języków, stworzony przez Microsoft, o otwartym kodzie źródłowym.
+- https://code.visualstudio.com/
+Licencja: MIT dla kodu, własnościowa dla wersji binarnych.
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+• 2.0.9. PostgreSQL, także Postgres – obok MySQL i SQLite, jeden z
+najpopularniejszych otwartych systemów zarządzania relacyjnymi bazami danych.
+- https://www.postgresql.org/
+Licencja: PostgreSQL license
